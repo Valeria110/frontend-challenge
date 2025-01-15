@@ -4,7 +4,7 @@ import { useState } from "react";
 import emptyHeart from "../../../public/empty-heart.svg";
 import clickedHeart from "../../../public/clicked-heart.svg";
 import Image from "next/image";
-import { useAppDispatch, useAppSelector } from "@/app/hooks/store-hooks";
+import { useAppDispatch, useAppSelector } from "@/hooks/store-hooks";
 import { addFavCat, removeFavCat } from "@/features/favs.slice";
 import { ICat } from "@/types/cat.entity";
 
