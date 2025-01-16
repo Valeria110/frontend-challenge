@@ -7,7 +7,7 @@ interface IProps {
 }
 
 export const Card = ({ catData }: IProps) => {
-  const { id, url, width, height } = catData;
+  const { url, width, height } = catData;
 
   return (
     <StoreProvider>
